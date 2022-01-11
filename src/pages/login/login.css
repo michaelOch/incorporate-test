@@ -1,0 +1,10 @@
+.login-wrapper {
+    max-width: 360px;
+}
+
+.round {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
