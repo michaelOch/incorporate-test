@@ -30,7 +30,7 @@ function Login() {
     useEffect(() => {
         if (getDataToken()) {
             if (JSON.parse(getDataToken()).token) {
-                navigate(state ? state.path : '/profile');
+                navigate(state ? state.path : '/home');
             } else {
                 setData({
                     ...data,
