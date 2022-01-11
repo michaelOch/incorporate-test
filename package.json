@@ -2,7 +2,7 @@
   "name": "incorporate-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://michaeloch.github.io/",
+  "homepage": "https://michaeloch.github.io/incorporate-test/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
