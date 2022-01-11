@@ -30,7 +30,7 @@ function App() {
 
     return (
         <UserContext.Provider value={{auth, setAuth}}>
-            <Router>
+            <Router basename={window.location.pathname || ''}>
                 <Routes>
                     <Route 
                         exact
