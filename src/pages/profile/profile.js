@@ -5,7 +5,7 @@ import { UserContext } from '../../services/context';
 import { apiUrl, removeDataToken } from '../../services/util';
 import Header from '../../components/Header/Header';
 
-import './profile.css';
+import './Profile.css';
 
 function Profile() {
 

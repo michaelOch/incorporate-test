@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { UserContext } from './services/context';
 import { getDataToken } from './services/util';
 import Auth from './components/Auth/Auth';
-import Login from './pages/login/login';
-import Register from './pages/register/register';
-import Home from './pages/index/index';
-import Profile from './pages/profile/profile';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
+import Home from './pages/Index/Index';
+import Profile from './pages/Profile/Profile';
 import './App.css';
 
 function App() {

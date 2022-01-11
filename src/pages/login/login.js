@@ -8,7 +8,7 @@ import PageLoader from '../../components/PageLoader/PageLoader';
 import { faUserAlt, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import './login.css';
+import './Login.css';
 
 function Login() {
 
