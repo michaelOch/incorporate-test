@@ -34,22 +34,22 @@ function App() {
                 <Routes>
                     <Route 
                         exact
-                        path={process.env.PUBLIC_URL + '/'}
+                        path='/'
                         element={<Login />}
                     />
                     <Route 
                         exact
-                        path={process.env.PUBLIC_URL + '/login'}
+                        path='/login'
                         element={<Login />}
                     />
                     <Route 
                         exact
-                        path={process.env.PUBLIC_URL + '/register'}
+                        path='/register'
                         element={<Register />}
                     />
                     <Route 
                         exact 
-                        path={process.env.PUBLIC_URL + '/home'} 
+                        path="/home" 
                         element={
                             <Auth>
                                 <Home />
@@ -58,13 +58,18 @@ function App() {
                     />
                     <Route 
                         exact 
-                        path={process.env.PUBLIC_URL + '/profile'} 
+                        path="/profile" 
                         element={
                             <Auth>
                                 <Profile />
                             </Auth>
                         } 
                     />
+                    {/* <Route 
+                        exact 
+                        path="/profile" 
+                        element={<Profile />} 
+                    /> */}
                 </Routes>
             </Router>
         </UserContext.Provider>
