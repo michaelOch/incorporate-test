@@ -30,7 +30,7 @@ function App() {
 
     return (
         <UserContext.Provider value={{auth, setAuth}}>
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router>
                 <Routes>
                     <Route 
                         exact
@@ -64,12 +64,7 @@ function App() {
                                 <Profile />
                             </Auth>
                         } 
-                    />
-                    {/* <Route 
-                        exact 
-                        path="/profile" 
-                        element={<Profile />} 
-                    /> */}
+                    /> 
                 </Routes>
             </Router>
         </UserContext.Provider>

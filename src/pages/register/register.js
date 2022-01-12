@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import axios from 'axios';
 import { apiUrl } from '../../services/util';
 
@@ -169,9 +170,9 @@ function Register() {
                         </div>
                         <p className="text-center mt-4">
                             Already have an account? &nbsp;
-                            <a href='/login'> 
+                            <Link to='/login'> 
                                 Sign in
-                            </a>
+                            </Link>
                         </p>
                     </form>
                 </div>
